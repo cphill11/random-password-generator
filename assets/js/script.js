@@ -17,13 +17,13 @@ function generatePassword() {
   var charsSymbols = "!@#$%^&*()";
   var chars = "";
 
-  var passwordLength = prompt("How long does your password need to be?");
+  var passwordLength = prompt("How many characters does your password need to have?");
   var confirmNumbers = confirm("Would you like to include numbers?");
   var confirmLowercase = confirm(
-    "Would you like your password to include lower case letters?"
+    "Would you like your password to include LOWER case letters?"
   );
   var confirmUppercase = confirm(
-    "Would you like your password to include upper case letters?"
+    "Would you like your password to include UPPER case letters?"
   );
   var confirmSymbols = confirm(
     "Would you like your password to include symbols?"

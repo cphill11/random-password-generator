@@ -54,29 +54,7 @@ li {
   font-size: 1.6rem;
 }
 
-/* form {
-  display: flex;
-  align-items: flex-end;
-  flex-wrap: wrap;
-}
-
-/* entry fields in header */
-form input {
-  outline: none;
-  border: none;
-  padding: 12px;
-  width: 100%;
-  font-size: 2.1rem;
-  border: 2px solid rgb(111, 103, 189);
-  box-shadow: 0 0 10px rgb(136, 0, 255);
-  border-radius: 12px;
-}
-
-form .form-group {
-  margin: 10px 6px 10px 0;
-  flex: 1;
-}
-*/ .wrapper {
+.wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
