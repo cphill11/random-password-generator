@@ -16,9 +16,36 @@
         <p>Set the password requirements you want, then create a random password.</p>
     </header>
 
+    <div class="wrapper">
+        <div class="card-header">
+            <h2>Fill Out Fields to Specify Your Password Requirements</h2>
+        </div>
+        <div class="card-body">
+            <!-- <form id="task-form">
+                <div class="form-group">
+                    <input type="text" name="task-name" placeholder="How long does your password need to be?" />
 
+                    <input type="text" name="task-name" placeholder="Would you like the password to include numbers?" />
+                    <input type="text" name="task-name" placeholder="Would you like to include upper case letters?" />
+                    <input type="text" name="task-name" placeholder="Would you like to include lower case letters?" />
+                    <input type="text" name="task-name" placeholder="Would you like to use symbols?" />
 
-    
+                </div>
+        </div>
+        </form> -->
+        <div class="card-body">
+            <textarea
+                readonly
+                id="password"
+                placehold="Your Secure Password"
+                aria-label="Generated Password"
+            ></textarea>
+        </div>
+        <div class="card-footer">
+            <button id="generate" class="btn">Create the Password</button>
+        </div>
+    </div>
+
     <footer>
         <h2>Created by: Criste Phillips, B.S., M.S., Software Developer</h2>
         <div>
