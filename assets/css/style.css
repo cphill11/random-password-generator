@@ -4,7 +4,7 @@
   margin: 1;
   padding: 1;
   box-sizing: border-box;
-  filter: grayscale(35%);
+
 }
 
 :root {
@@ -12,8 +12,7 @@
 }
 
 body {
-  background: rgb(173, 186, 194);
-  color: rgb(22, 15, 63);
+  background: rgb(216, 215, 206);
   margin: 0;
   padding: 0;
   display: flex;
@@ -31,27 +30,37 @@ body,
 header {
   background-image: linear-gradient(
     to right,
-    rgb(70, 180, 200),
-    rgb(70, 150, 200),
-    rgb(70, 130, 164),
-    rgb(66, 96, 193),
-    rgb(50, 67, 138),
-    rgb(40, 50, 138)
+    rgb(216, 215, 206),
+    rgb(190, 190, 181),
+    rgb(165, 165, 158),
+    rgb(154, 153, 144),
+    rgb(133, 132, 124),
+    rgb(121, 120, 112)
   );
-  color: rgb(28, 20, 74);
+  color: rgb(57, 56, 53);
   padding: 25px 20px 10px 20px;
-  border-bottom: 1.5px solid rgb(33, 17, 199);
+  border-bottom: 1.5px solid rgb(94, 93, 88);
+}
+header h1 {
+    text-align: center;
 }
 
 header p {
   color: rgb(41, 40, 46);
   margin: 5px 0 20px;
   font-size: 2rem;
+  text-align: center;
+}
+
+header nav {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(41, 40, 46);
 }
 
 p,
 li {
-  font-size: 1.6rem;
+  font-size: 16px;
 }
 
 .wrapper {
@@ -60,7 +69,7 @@ li {
   padding-right: 20px;
 }
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: rgb(240, 239, 225);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -71,6 +80,13 @@ li {
   padding: 30px 40px;
 }
 
+.card-header {
+    text-align: center;
+}
+
+.card-header h3 {
+  color: rgb(102, 141, 167);
+}
 .card-header::after {
   content: " ";
   display: block;
@@ -103,11 +119,11 @@ li {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(75, 105, 125);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
-  color: hsl(0, 0%, 100%);
+  color: hsl(32, 18%, 86%);
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
@@ -116,6 +132,7 @@ li {
   text-align: center;
   cursor: pointer;
 }
+
 
 button[disabled] {
   cursor: default;
@@ -151,16 +168,16 @@ footer {
   width: 100%;
   background-image: linear-gradient(
     to right,
-    rgb(70, 180, 200),
-    rgb(70, 150, 200),
-    rgb(70, 130, 164),
-    rgb(66, 96, 193),
-    rgb(50, 67, 138),
-    rgb(29, 20, 50)
+    rgb(216, 215, 206),
+    rgb(190, 190, 181),
+    rgb(165, 165, 158),
+    rgb(154, 153, 144),
+    rgb(133, 132, 124),
+    rgb(121, 120, 112)
   );
-  color: rgb(28, 20, 74);
+  color: rgb(57, 56, 53);
   padding: 20px;
-  border-top: 1.5px solid rgb(33, 17, 199);
+  border-top: 1.5px solid rgb(94, 93, 88);
 }
 
 footer h2 {
@@ -171,16 +188,15 @@ footer h2 {
 footer div {
   font-size: 2rem;
   text-align: right;
-  color: #7a829a;
+  color: rgb(45, 44, 41);
 }
 footer div a {
   font-size: 1.4rem;
   text-align: right;
-  color: #7a829a;
+  color: rgb(45, 44, 41);
 }
 
 .page-title {
-  color: blue;
   margin-bottom: 5px;
   margin-top: 0;
   font-size: 4.5rem;
