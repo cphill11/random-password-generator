@@ -64,19 +64,31 @@
     color: rgb(70, 70, 75);
     box-shadow: 0 0 10px rgba(99, 102, 103, 0.5);
     border-radius: 15px;
-    margin-left: 1.5%;
+    margin: 5% 1.5% 16.5% 1.5%;
+    min-height: 45vh;
   }
   
   .hero-form h2 {
-    font-size: 24px;
-    width: 40%;
+    font-size: 26px;
+    width: 100%;
     margin: 0%;
     text-align: center;
+    margin: 0 1.5% 5% 1.5%;
   }
   
+  .hero-form h3 {
+    font-size: 20px;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    margin: 0 1.5% 5% 1.5%;
+  }
+
   .hero-form label {
+    font-size: 20px;
     padding: 0 0 25% 0;
     color: rgb(49, 47, 58);
+    margin: 0 1.5% 5% 1.5%;
   }
   
   .hero-form p {
@@ -100,7 +112,7 @@
     padding: 7px 15px;
     font-size: 16 px;
     color: #878f87;
-    width: 100%;
+    width: 70%;
     margin-bottom: 15px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.75);
