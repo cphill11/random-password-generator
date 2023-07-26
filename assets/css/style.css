@@ -41,7 +41,7 @@ header {
   border-bottom: 1.5px solid rgb(94, 93, 88);
 }
 header h1 {
-    text-align: center;
+  text-align: center;
 }
 
 header p {
@@ -52,9 +52,9 @@ header p {
 }
 
 header nav {
-    text-align: center;
-    font-size: 2rem;
-    color: rgb(41, 40, 46);
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(41, 40, 46);
 }
 
 p,
@@ -80,7 +80,7 @@ li {
 }
 
 .card-header {
-    text-align: center;
+  text-align: center;
 }
 
 .card-header h3 {
@@ -132,6 +132,23 @@ li {
   cursor: pointer;
 }
 
+.btn:hover {
+  font-weight: 200;
+  text-decoration: underline;
+  background-image: linear-gradient(
+    to right,
+    rgb(216, 215, 206),
+    rgb(190, 190, 181),
+    rgb(165, 165, 158),
+    rgb(154, 153, 144),
+    rgb(133, 132, 124),
+    rgb(121, 120, 112)
+  );
+  color: rgb(57, 56, 53);
+  font-weight: bold;
+  border: 3px solid rgb(45, 45, 75);
+  border-radius: 25px;
+}
 
 button[disabled] {
   cursor: default;

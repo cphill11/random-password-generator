@@ -5,7 +5,7 @@
    }
   
    body {
-    background: rgb(173, 186, 194);
+    background: rgb(216, 215, 206);
     color: rgb(22, 15, 63);
     margin: 0;
     padding: 0;
@@ -59,7 +59,7 @@
   
   .hero-form {
     border: 3px solid #878f87;
-    background-color: rgba(114, 122, 130, 0.8);
+    background: rgb(216, 215, 206);
     padding: 20px;
     color: rgb(70, 70, 75);
     box-shadow: 0 0 10px rgba(99, 102, 103, 0.5);
@@ -112,7 +112,7 @@
     padding: 7px 15px;
     font-size: 16 px;
     color: #878f87;
-    width: 70%;
+    width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.75);
@@ -123,8 +123,7 @@
     background-color: rgba(255, 255, 255, 1);
   }
   
-  .hero-form form button,
-  .contact-form button {
+  .hero-form form button {
     width: 100%;
     border: 3px solid rgb(111, 111, 125);
     background: #928d8d;
@@ -133,8 +132,31 @@
     padding: 15px 0;
     font-size: 18px;
     font-style: bold;
-    border-radius: 10px;
+    border-radius: 25px;
   }
+
+  .hero-form form button:hover {
+      font-weight: 200;
+      text-decoration: underline;
+      background-image: linear-gradient(
+        to right,
+        rgb(216, 215, 206),
+        rgb(190, 190, 181),
+        rgb(165, 165, 158),
+        rgb(154, 153, 144),
+        rgb(133, 132, 124),
+        rgb(121, 120, 112)
+      );
+      color: rgb(57, 56, 53);
+      font-weight: bold;
+      border: 3px solid rgb(45, 45, 75);
+      border-radius: 25px;
+    }
+
+.hero-form form span input {
+  margin-left: 5%;
+}
+
 
 footer {
     width: 100%;
