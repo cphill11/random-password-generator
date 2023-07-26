@@ -14,20 +14,102 @@
 <body>
     <header>
         <h1>Random Password Generator</h1>
-        <nav>          
-            <a href="index.html#home">Home</a>
+        <nav>
+            <a href="index.html#home">Back to Home</a>
         </nav>
     </header>
-    
-  
-</div>
-    <footer>
-        <h2>Created by: Criste Phillips, B.S., M.S., Software Developer</h2>
-        <div>
-            <a href="./privacy-policy.html">Privacy Policy</a> <br>
-            &copy; 2023 Criste Phillips
-        </div>
-    </footer>
+    <div>
+        <!--start hero / jumbotron-->
+        <section class="hero">
+            <!-- input form-->
+            <div class="hero-form">
+                <h2>Fill out this form.</h2>
+                <h3>Select 'Submit' to generate a new password.</h3>
+                <form>
+                    <label for="name">Number of characters:</label>
+                    <input type="text" placeholder="Pick a number (6 through 225)" id="name" class="form-input" />
+                    <p>
+                        <label for="name">Include Numbers?</label>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="value-confirm" id="value-yes" />
+
+                            <label for="value-yes">Yes</label>
+                        </span>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="value-confirm" id="value-no" />
+
+                            <label for="value-no">No</label>
+                        </span>
+                    </p>
+
+                    <p>
+                        <label for="name">Include Upper Case Letters?</label>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="value-confirm" id="value-yes" />
+
+                            <label for="value-yes">Yes</label>
+                        </span>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="value-confirm" id="value-no" />
+
+                            <label for="value-no">No</label>
+                        </span>
+                    </p>
+
+                    <p>
+                        <label for="name">Include Lower Case Letters?</label>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="value-confirm" id="value-yes" />
+
+                            <label for="value-yes">Yes</label>
+                        </span>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="value-confirm" id="value-no" />
+
+                            <label for="value-no">No</label>
+                        </span>
+                    </p>
+
+                    <p>
+                        <label for="name">Include Symbols?</label>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="value-confirm" id="value-yes" />
+
+                            <label for="value-yes">Yes</label>
+                        </span>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="value-confirm" id="value-no" />
+
+                            <label for="value-no">No</label>
+                        </span>
+                    </p>
+                    <!-- <p>
+                    <span class="checkbox-wrapper">
+                        <input type="checkbox" name="checkpoint" id="checkbox" />
+
+                        <label for="checkbox">Owner acknowledge's that pet interested in playtime has been vaccinated &
+                            is healthy.</label>
+                        <br>
+                        <input type="checkbox" name="checkpoint" id="checkbox" />
+
+                        <label for="checkbox">Owner acknowledge's that pet interested in playtime plays well with
+                            others.</label>
+                    </span>
+                </p> -->
+                    <button type="submit">Submit Info</button>
+                </form>
+            </div>
+            <!-- end meet and greet form -->
+        </section>
+
+
+        <footer>
+            <h2>Created by: Criste Phillips, B.S., M.S., Software Developer</h2>
+            <div>
+                <a href="./privacy-policy.html">Privacy Policy</a> <br>
+                &copy; 2023 Criste Phillips
+            </div>
+        </footer>
 </body>
 <script src="./assets/js/script.js"></script>
 
