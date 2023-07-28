@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 1;
     padding: 1;
     box-sizing: border-box;
@@ -47,7 +47,7 @@
 
  
  /* Hero Style Start */
-.hero {
+/* .hero {
     background-size: contain;
     background-position: center;
     display: flex;
@@ -188,5 +188,5 @@ footer {
     font-size: 1.4rem;
     text-align: right;
     color: rgb(45, 44, 41);
-  }
-    
+  } */
+

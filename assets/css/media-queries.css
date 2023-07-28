@@ -8,20 +8,23 @@
 
 /* MEDIA QUERY FOR iPADS, TABLETS & SMALLER */
 @media screen and (max-width: 768px) {
-    .btn {
-        font-size: 1rem;
-        margin: 16px 0px 0px 0px;
-        padding: 10px 15px;
-      }
-    
-      #password {
-        font-size: 1rem;
-      } 
+  .btn {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+
+  #password {
+    font-size: 30px;
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE DEVICES */
 @media screen and (max-width: 480px) {
-    .btn {
-        font-size: 0.8rem;
-      }
+  .btn {
+    font-size: 0.8rem;
+  }
+  #password {
+    font-size: 28px;
+  }
 }
