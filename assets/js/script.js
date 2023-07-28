@@ -1,34 +1,34 @@
 // get references to generate element
-var generateBtn = document.querySelector("#generate");
+const generateBtn = document.querySelector("#generate");
 
 // write password to password input functionality
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  const password = generatePassword();
+  const passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 }
 
 // generate password functionality
 function generatePassword() {
-  var charsNumbers = "0123456789";
-  var charsLowercase = "abcdefghijklmnopqrstuvwxyz";
-  var charsUppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var charsSymbols = "!@#$%^&*()";
-  var chars = "";
+  const charsNumbers = "0123456789";
+  const charsLowercase = "abcdefghijklmnopqrstuvwxyz";
+  const charsUppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const charsSymbols = "!@#$%^&*()";
+  let chars = "";
 
-  var passwordLength = prompt("How many characters does your password need to have?");
-  var confirmNumbers = confirm("Would you like to include numbers?");
-  var confirmLowercase = confirm(
+  const passwordLength = prompt("How many characters does your password need to have?");
+  const confirmNumbers = confirm("Would you like to include numbers?");
+  const confirmLowercase = confirm(
     "Would you like your password to include LOWER case letters?"
   );
-  var confirmUppercase = confirm(
+  const confirmUppercase = confirm(
     "Would you like your password to include UPPER case letters?"
   );
-  var confirmSymbols = confirm(
+  const confirmSymbols = confirm(
     "Would you like your password to include symbols?"
   );
-  var password = "";
+  let password = "";
 
   // require at least 1 password to be chosen
   if (
@@ -60,8 +60,8 @@ function generatePassword() {
   }
 
   // loop to create a password from variables
-  for (var i = 0; i <passwordLength; i++) {
-      var randomNumber = Math.floor(Math.random() * chars.length);
+  for (let i = 0; i <passwordLength; i++) {
+      let randomNumber = Math.floor(Math.random() * chars.length);
       password += chars.substring(randomNumber, randomNumber +1);
   }
   return (password);

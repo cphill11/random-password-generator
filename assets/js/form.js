@@ -1,70 +1,25 @@
-// get references to generate element
-var generateBtn = document.querySelector("#generate");
+// var form = document.getElementById('password-form');
+// form.addEventListener('submit', function(event){
+//     event.preventDefault(); // prevents form from autosubmitting
 
-// write password to password input functionality
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+//     var characters = document.getElementById('characters').value;
 
-  passwordText.value = password;
-}
+//     var numbersYes = document.getElementById('numbers-yes').value;
+    
+//     var numbersNo = document.getElementById('numbers-no').value;
 
-// generate password functionality
-function generatePassword() {
-  var charsNumbers = "0123456789";
-  var charsLowercase = "abcdefghijklmnopqrstuvwxyz";
-  var charsUppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var charsSymbols = "!@#$%^&*()";
-  var chars = "";
+//     var upperYes = document.getElementById('upper-yes').value;
 
-  var passwordLength = prompt("How many characters does your password need to have?");
-  var confirmNumbers = confirm("Would you like to include numbers?");
-  var confirmLowercase = confirm(
-    "Would you like your password to include LOWER case letters?"
-  );
-  var confirmUppercase = confirm(
-    "Would you like your password to include UPPER case letters?"
-  );
-  var confirmSymbols = confirm(
-    "Would you like your password to include symbols?"
-  );
-  var password = "";
+//     var upperNo = document.getElementById('upper-no').value;
 
-  // require at least 1 password to be chosen
-  if (
-    confirmNumbers === false &&
-    confirmUppercase === false &&
-    confirmLowercase === false &&
-    confirmSymbols === false
-  ) {
-    return "To generate as secure password, select at least one of the provided options.";
-  }
+//     var lowerYes = document.getElementById('lower-yes').value;
 
-  // password length requirements
-  if (passwordLength < 6 || passwordLength > 225) {
-      return "Password must be between 6 and 225 characters long."
-  }
+//     var lowerNo = document.getElementById('lower-no').value;
 
-  // character concatenation
-  if (confirmNumbers === true) {
-      chars = chars + charsNumbers;
-  }
-  if (confirmUppercase === true) {
-      chars = chars + charsUppercase;
-  }
-  if (confirmLowercase === true) {
-      chars = chars + charsLowercase;
-  }
-  if (confirmSymbols === true) {
-      chars = chars + charsSymbols;
-  }
+//     var symbolsYes = document.getElementById('symbols-yes').value;
 
-  // loop to create a password from variables
-  for (var i = 0; i <passwordLength; i++) {
-      var randomNumber = Math.floor(Math.random() * chars.length);
-      password += chars.substring(randomNumber, randomNumber +1);
-  }
-  return (password);
-}
-// event listener for generate button
-generateBtn.addEventListener("click", writePassword);
+//     var symbolsNo = document.getElementById('symbols-no').value;
+
+//     console.log(symbolsNo)
+    
+// });
