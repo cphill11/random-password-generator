@@ -17,7 +17,7 @@ function generatePassword() {
   const charsSymbols = "!@#$%^&*()";
   let chars = "";
 
-  const passwordLength = prompt("How many characters does your password need to have?");
+  const passwordLength = prompt("How many characters does your password need to have? Must be between 6 and 225 characters.");
   const confirmNumbers = confirm("Would you like to include numbers?");
   const confirmLowercase = confirm(
     "Would you like your password to include LOWER case letters?"
