@@ -45,6 +45,14 @@ header {
 }
 header h1 {
   text-align: center;
+  font-size: 24px;
+}
+
+
+.page-title {
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-size: 3.25rem;
 }
 
 header p {
@@ -54,12 +62,18 @@ header p {
   text-align: center;
 }
 
-header nav {
-  text-align: center;
-  font-size: 2rem;
-  color: rgb(41, 40, 46);
+
+
+header nav a {
+  font-size: 26px;
+  font-style: italic;
+  color: rgb(57, 56, 53);
 }
 
+header nav a:hover{
+color: rgb(35, 49, 160);
+  font-style: bold;
+}
 
 p,
 li {
@@ -217,8 +231,3 @@ footer a {
   color: rgb(45, 44, 41);
 }
 
-.page-title {
-  margin-bottom: 5px;
-  margin-top: 0;
-  font-size: 4.5rem;
-}
