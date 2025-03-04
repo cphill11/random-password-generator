@@ -27,6 +27,9 @@ body,
   padding: 0;
 }
 header {
+  display:flex;
+  width: 100%;
+  justify-content: space-evenly;
   background-image: linear-gradient(
     to right,
     rgb(216, 215, 206),

@@ -15,7 +15,7 @@
     <header>
         <h1>Random Password Generator</h1>
         <nav>
-            <a href="index.html#home">Back to Home</a>
+            <a href="index.html#home">Home</a>
         </nav>
     </header>
     <div>
@@ -28,8 +28,9 @@
                 <form id="password-form">
                     <label for="name">Number of characters:</label>
                     <div class="form-group">
-                    <input type="number" name="characters" placeholder="Pick a number (6 through 225)" id="characters" class="form-input" />
-                    </div>
+                    <input type="number" name="characters" placeholder="Password Length (6 through 225)" id="characters" class="form-input" />
+                    <span id="errorMsg"></span>
+                </div>
                     <p>
                         <label for="name">Include Numbers?</label>
                            <span class="radio-wrapper">
@@ -80,9 +81,13 @@
 
                                 <label for="symbols-no">No</label>
                             </span>
+
                         </p>
                     </div>
                     <button type="submit" id="generate">Generate Password</button>
+                
+                    <textarea readonly id="password" placehold="Your Secure Password"
+                    aria-label="Generated Password"></textarea>
                 </form>
             </div>
         </section>
