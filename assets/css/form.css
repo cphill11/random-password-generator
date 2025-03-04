@@ -1,20 +1,10 @@
-/* * {
+ * {
     margin: 1;
     padding: 1;
     box-sizing: border-box;
    }
   
-   body {
-    background: rgb(216, 215, 206);
-    color: rgb(22, 15, 63);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
+
   header {
     text-align: center;
     background-image: linear-gradient(
@@ -47,7 +37,7 @@
 
  
  /* Hero Style Start */
-/* .hero {
+.hero {
     background-size: contain;
     background-position: center;
     display: flex;
@@ -55,6 +45,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: local;
+    min-height: 100%;
   }
   
   .hero-form {
@@ -157,36 +148,4 @@
   margin-left: 5%;
 }
 
-
-footer {
-    width: 100%;
-    background-image: linear-gradient(
-      to right,
-      rgb(216, 215, 206),
-      rgb(190, 190, 181),
-      rgb(165, 165, 158),
-      rgb(154, 153, 144),
-      rgb(133, 132, 124),
-      rgb(121, 120, 112)
-    );
-    color: rgb(57, 56, 53);
-    padding: 20px;
-    border-top: 1.5px solid rgb(94, 93, 88);
-  }
-  
-  footer h2 {
-    font-size: 2.4rem;
-    text-align: left;
-    margin: 0;
-  }
-  footer div {
-    font-size: 2rem;
-    text-align: right;
-    color: rgb(45, 44, 41);
-  }
-  footer div a {
-    font-size: 1.4rem;
-    text-align: right;
-    color: rgb(45, 44, 41);
-  } */
 

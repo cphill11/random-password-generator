@@ -1,25 +1,24 @@
-// var form = document.getElementById('password-form');
-// form.addEventListener('submit', function(event){
-//     event.preventDefault(); // prevents form from autosubmitting
+const form = document.getElementById("password-form");
+form.addEventListener("submit", function (event) {
+  event.preventDefault(); // prevents form from autosubmitting
 
-//     var characters = document.getElementById('characters').value;
+  let characters = document.getElementById("characters").value;
 
-//     var numbersYes = document.getElementById('numbers-yes').value;
-    
-//     var numbersNo = document.getElementById('numbers-no').value;
+  let numbersYes = document.getElementById("numbers-yes").value;
 
-//     var upperYes = document.getElementById('upper-yes').value;
+  let numbersNo = document.getElementById("numbers-no").value;
 
-//     var upperNo = document.getElementById('upper-no').value;
+  let upperYes = document.getElementById("upper-yes").value;
 
-//     var lowerYes = document.getElementById('lower-yes').value;
+  let upperNo = document.getElementById("upper-no").value;
 
-//     var lowerNo = document.getElementById('lower-no').value;
+  let lowerYes = document.getElementById("lower-yes").value;
 
-//     var symbolsYes = document.getElementById('symbols-yes').value;
+  let owerNo = document.getElementById("lower-no").value;
 
-//     var symbolsNo = document.getElementById('symbols-no').value;
+  let symbolsYes = document.getElementById("symbols-yes").value;
 
-//     console.log(symbolsNo)
-    
-// });
+  let symbolsNo = document.getElementById("symbols-no").value;
+
+  console.log(symbolsNo);
+});

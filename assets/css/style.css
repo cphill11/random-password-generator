@@ -57,6 +57,7 @@ header nav {
   color: rgb(41, 40, 46);
 }
 
+
 p,
 li {
   font-size: 16px;
@@ -193,6 +194,7 @@ footer {
   );
   color: rgb(57, 56, 53);
   padding: 20px;
+  padding-bottom: 5rem;
   border-top: 1.5px solid rgb(94, 93, 88);
 }
 
@@ -206,7 +208,7 @@ footer div {
   text-align: right;
   color: rgb(45, 44, 41);
 }
-footer div a {
+footer a {
   font-size: 1.4rem;
   text-align: right;
   color: rgb(45, 44, 41);
