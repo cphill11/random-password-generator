@@ -1,144 +1,144 @@
- * {
-    margin: 1;
-    padding: 1;
-    box-sizing: border-box;
-   }
-  
+* {
+  margin: 1;
+  padding: 1;
+  box-sizing: border-box;
+}
 
-  header {
-    text-align: center;
-    background-image: linear-gradient(
-        to right,
-        rgb(216, 215, 206),
-        rgb(190, 190, 181),
-        rgb(165, 165, 158),
-        rgb(154, 153, 144),
-        rgb(133, 132, 124),
-        rgb(121, 120, 112)
-      );
-      color: rgb(57, 56, 53);
-      padding: 25px 20px 10px 20px;
-      border-bottom: 1.5px solid rgb(94, 93, 88);
-  }
+header {
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(216, 215, 206),
+    rgb(190, 190, 181),
+    rgb(165, 165, 158),
+    rgb(154, 153, 144),
+    rgb(133, 132, 124),
+    rgb(121, 120, 112)
+  );
+  color: rgb(57, 56, 53);
+  padding: 25px 20px 10px 20px;
+  border-bottom: 1.5px solid rgb(94, 93, 88);
+}
 
-  header h1 {
-      font-size: 32px;
-  }
- header nav {
-    padding-top: 2.5em;
-  } 
+header h1 {
+  font-size: 32px;
+}
+header nav {
+  padding-top: 2.5em;
+}
 
-
- /* Hero Style Start */
+/* Hero Style Start */
 .hero {
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: local;
-    min-height: 100%;
-  }
-  
-  .hero-form {
-    border: 3px solid #878f87;
-    background: rgb(181, 180, 170);
-    padding: 20px;
-    color: rgb(70, 70, 75);
-    box-shadow: 0 0 10px rgba(99, 102, 103, 0.5);
-    border-radius: 15px;
-    margin: 5% 1.5% 16.5% 1.5%;
-    min-height: 45vh;
-  }
-  
-  .hero-form h2 {
-    font-size: 26px;
-    width: 100%;
-    margin: 0%;
-    text-align: center;
-    margin: 0 1.5% 5% 1.5%;
-  }
-  
-  .hero-form h3 {
-    font-size: 20px;
-    width: 100%;
-    margin: 0%;
-    text-align: center;
-    margin: 0 1.5% 5% 1.5%;
-  }
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: local;
+  min-height: 95%;
+}
 
-  .hero-form label {
-    font-size: 20px;
-    padding: 0 0 25% 0;
-    color: rgb(49, 47, 58);
-    margin: 0 1.5% 5% 1.5%;
-  }
-  
-  .hero-form p {
-    margin: 5px 0 15px 0;
-  }
-  
-  .hero-form form {
-    color: rgb(41, 54, 60);
-     }
-  
-  .hero {
-    font-style: italic;
-    font-size: 32px;
-    color: rgb(92, 92, 128);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .form-input {
-    border: 3px solid rgb(111, 111, 125);
-    display: block;
-    padding: 7px 15px;
-    font-size: 16 px;
-    color: #878f87;
-    width: 100%;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.75);
-    outline: none;
-  }
-  
-  .form-input:focus {
-    background-color: rgba(255, 255, 255, 1);
-  }
-  
-  .hero-form form button {
-    width: 100%;
-    border: 3px solid rgb(111, 111, 125);
-    background: #928d8d;
-    color: rgb(46, 46, 48);
-    text-align: center;
-    padding: 15px 0;
-    font-size: 18px;
-    font-style: bold;
-    border-radius: 25px;
-  }
+.hero-form {
+  border: 3px solid #878f87;
+  background: rgb(181, 180, 170);
+  padding: 20px;
+  color: rgb(70, 70, 75);
+  box-shadow: 0 0 10px rgba(99, 102, 103, 0.5);
+  border-radius: 15px;
+  margin: 5% 1.5% 16.5% 1.5%;
+  min-height: 45vh;
+}
 
-  .hero-form form button:hover {
-      font-weight: 200;
-      text-decoration: underline;
-      background-image: linear-gradient(
-        to right,
-        rgb(216, 215, 206),
-        rgb(190, 190, 181),
-        rgb(165, 165, 158),
-        rgb(154, 153, 144),
-        rgb(133, 132, 124),
-        rgb(121, 120, 112)
-      );
-      color: rgb(57, 56, 53);
-      font-weight: bold;
-      border: 3px solid rgb(45, 45, 75);
-      border-radius: 25px;
-    }
+.hero-form h2 {
+  font-size: 26px;
+  width: 100%;
+  margin: 0%;
+  text-align: center;
+  margin: 0 1.5% 5% 1.5%;
+}
+
+.hero-form h3 {
+  font-size: 20px;
+  width: 100%;
+  margin: 0%;
+  text-align: center;
+  margin: 0 1.5% 5% 1.5%;
+}
+
+.hero-form label {
+  font-size: 20px;
+  padding: 0 0 25% 0;
+  color: rgb(49, 47, 58);
+  margin: 0 1.5% 5% 1.5%;
+}
+
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+
+.hero-form form {
+  color: rgb(41, 54, 60);
+}
+
+.hero {
+  font-style: italic;
+  font-size: 32px;
+  color: rgb(92, 92, 128);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-input {
+  border: 3px solid rgb(111, 111, 125);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16 px;
+  color: #878f87;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+  outline: none;
+}
+
+.form-input:focus {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.hero-form form button {
+  width: 100%;
+  border: 3px solid rgb(111, 111, 125);
+  background: #928d8d;
+  color: rgb(46, 46, 48);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
+  font-style: bold;
+  border-radius: 25px;
+}
+
+.hero-form form button:hover {
+  font-weight: 200;
+  text-decoration: underline;
+  background-image: linear-gradient(
+    to right,
+    rgb(216, 215, 206),
+    rgb(190, 190, 181),
+    rgb(165, 165, 158),
+    rgb(154, 153, 144),
+    rgb(133, 132, 124),
+    rgb(121, 120, 112)
+  );
+  color: rgb(57, 56, 53);
+  font-weight: bold;
+  border: 3px solid rgb(45, 45, 75);
+  border-radius: 25px;
+}
 
 .hero-form form span input {
   margin-left: 5%;
 }
 
-
+#password-form {
+  text-align: right;
+}
